@@ -35,7 +35,7 @@ body {
     margin: .86rem 0;
 }
 
-.container .light-container .red-light {
+.container .light-container .red-light, .orange-light, .green-light {
     width: 80px;
     height: 80px;
     background: rgb(255, 0, 0);
