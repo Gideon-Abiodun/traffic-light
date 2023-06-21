@@ -6,16 +6,28 @@
     <title>Traffic-Light</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body onload="mainTimer;">
+
+    <!-- Traffic-Light-Container -->
+    
     <div class="container">
+
+        <!-- red-light -->
+
       <div class="light-container">
         <div class="red-light" id="red-light"></div>
         <!-- <h3>Stop 🚩</h3> -->
       </div>
+
+      <!-- orange-light -->
+
       <div class="light-container">
         <div class="orange-light" id="orange-light"></div>
         <!-- <h3>Ready </h3> -->
       </div>
+
+      <!-- green-light -->
+
       <div class="light-container">
         <div class="green-light" id="green-light"></div>
         <!-- <h3>Go </h3> -->
